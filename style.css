@@ -1,0 +1,307 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.dev-img{
+    float: left;
+    background-color: #fbece1;
+    height: 100%;
+}
+
+/* NavBar css */
+nav {
+    background-color: #fbece1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vmin 12vmax
+
+}
+nav h2 {
+    font-size: 6vmin;
+}
+
+.navbar {
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5vmin;
+    font-weight: 400;
+}
+
+.navbar button {
+    font-size: 2vh;
+    background-color: #FD6E0A;
+    padding: 0.5vw;
+    height: 4vw;
+    width: 7vw;
+    border-radius: 15px;
+    border:none;
+    color: white;
+    font-weight:bolder;
+    font-size: 2.5vmin;
+
+}
+span{
+    color: #FD6E0A;
+}
+
+
+/* Hero css */
+.hero {
+    display: flex;
+    margin: 0vw 12vmax;
+}
+
+.mbg{
+    background-color: #fbece1;
+    background-image: url(image/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 60vw;
+}
+
+
+.H-text {
+    /* background-color: lightcoral; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image {
+    /* background-color: rgb(169, 246, 246); */
+    width: 50%;
+}
+
+.m-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.H-text h2 {
+    font-size: 2.5vw;
+}
+.H-text h1 {
+    font-size: 4.5vw;
+    padding-bottom: 20px;
+}
+.H-text p {
+    font-size: 20px;
+    color: rgb(108, 108, 108);
+    padding-bottom: 20px;
+}
+.H-text button{
+    width: 25vmin;
+    height: 4vw;
+    background-color: #FD6E0A;
+    font-weight:bolder;
+    font-size: 2.5vmin;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+}
+
+
+/* AboutMe css */
+
+.abm-con{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 12vw;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw;
+    background-color: #fbece1;
+}
+.abm_heading{
+    font-size: 20px;
+    margin: 40px;
+}
+
+.abm_bottom{
+    font-size: 18px;
+    color:#757575;
+    margin-bottom: 40px;
+}
+.abm_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.abm_p{
+    font-size: 15px;
+    color: #757575;
+}
+.abm_s{
+    font-size: 20px;
+    font-weight: 800;
+    color:#303030
+}
+
+/* What_I_Do css */
+.wid{
+    margin: 0px 12vw;
+}
+.wid1{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.wid1 h2 {
+    font-size: 35px;
+}
+.wid2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* flex-direction: row;
+    justify-content: space-between; */
+    gap: 10px;
+}
+.wid-content{
+    height: 60vh;
+    width: 100%;
+    padding: 30px;
+    box-shadow: #757575 1px 1px 5px;
+}
+.wid-content img {
+padding: 10px 0px;
+}
+.wid-content h2 {
+    padding: 10px 0px;
+}
+.wid-content p {
+    padding: 10px 0px;
+    color: #757575;
+    font-size: 15px;
+}
+
+/* A summary of My Resume */
+section{
+    margin: 80px 12vw;
+}
+.sr-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sr-heading h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+.sr-mid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+/* .edu{
+    width: 50%;
+}
+.exp{
+    width: 50%;
+} */
+.sr-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.inner_div{
+    padding: 20px 5px;
+    border-bottom: #3e3e3e 1px solid;
+}
+.src-heading{
+    color: #303030;
+    line-height: 2;
+}
+.src-h3{
+    color: #3e3e3e;
+    line-height: 2;
+}
+.src-p{
+    color: #757575;
+}
+.src-btn button {
+    width: 25vmin;
+    height: 10vmin;
+    background-color: #FD6E0A;
+    font-weight:bolder;
+    font-size: 2.5vmin;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+}
+.src-btn{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/* contact me css */
+
+.mcm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbece1;
+}
+.cm-left{
+    width: 50%;
+    padding: 10vmax;
+}
+.cm-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    padding: 10vmax;
+}
+input{
+    width: 20vmax;
+    height: 5vmax;
+}
+.cm-right h2 {
+    font-size: 2vmax;
+    padding: 20px 0px;
+}
+.cm-left h2 {
+    font-size: 2vmax;
+    padding: 80px 0px;
+}
+.cm-left p {
+    font-size: 1vmax;
+    margin-bottom: 30px;
+}
+.cm-right button {
+    width: 25vmin;
+    height: 10vmin;
+    background-color: #FD6E0A;
+    font-weight:bolder;
+    font-size: 2.5vmin;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+}
+.icon i {
+    color: #FD6E0A;
+    font-size: 30px;
+}
+
+@media (max-width:750px){
+
+}
